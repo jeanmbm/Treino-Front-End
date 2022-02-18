@@ -1,0 +1,66 @@
+/* ANATOMIA */
+
+h1 {
+  color: blue;
+  font-size: 40px;
+  background: gray;
+}
+
+/*
+
+Regra CSS -> a regra é a unidade básica de uma folha de estilos, sendo a unidade básica a menor porção de código capaz de produzer uma estilização, como o exemplo a cima.
+
+Selector(seletor) -> elemento HTML no qual a regra será aplicada. No exemplo acima, é o h1.
+
+Declaration(declaração) -> são os parâmetros de estilização passados. No exemplo acima, compreende o que está dentro das chaves { }. 
+
+Properties(propriedade) -> é a caracteristica do seletor que será estilizada. No exemplo acima, são as propriedades color, font-size e background.
+
+Prperty value(valor) -> valor da propriedade, a quantificação ou qualificação da estilização da proriedade. No exemplo acima, são blue (que define a cor azul), 60px (que define o tamanho da fonte como 60px) e gray (que define a cor de fundo cinza).
+
+*/
+
+/* TIPOS DE SELETORES */
+
+/* 
+Global (*) -> define a estilização para todo o documento. 
+*/
+
+* {
+  font-size: 15px;
+  background-color: rgb(213, 245, 213);
+}
+
+/*
+Seletor de elemento (h1, h2, div, p) -> define a estilização para o(s) elemento/*(s) escolhido(s).
+*/
+
+p {
+  color: red;
+}
+
+/*
+Seletor de ID (#box, #container) -> define a estilização para o(s) id(s) escolhido(s).
+*/
+
+#container {
+  width: 300px;
+}
+
+/*
+Seletor de classe (.box, .container) -> define a estilização para a(s) classe(s) escolhida(s).
+*/
+
+.m-40 {
+  margin: 40px;
+}
+
+/*
+Grupamento de seletore -> é possível agrupar seletores para que os elementos tenham a mesma estilização
+*/
+
+h2,
+h3 {
+  color: black;
+  font-size: 15px;
+}

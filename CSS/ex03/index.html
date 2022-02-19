@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Especificidade</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1 {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Título <span style="color: chartreuse">qualquer</span></h1>
+    <p class="paragrafo">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, fugit?
+      <span id="my-p"
+        >Ratione ea tenetur dolores provident, saepe nulla explicabo</span
+      >
+      <span id="my-p" class="outro-paragrafo"
+        >nemo eligendi sunt, unde vero, repudiandae illo! Provident aperiam ea
+        accusantium quod?</span
+      >
+    </p>
+  </body>
+</html>

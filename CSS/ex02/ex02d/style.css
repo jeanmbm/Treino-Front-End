@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+* {
+  background-color: aquamarine;
+  font-family: 'Redressed', cursive;
+}
+
+h1 {
+  color: purple;
+}
+
+p {
+  color: blue;
+}
+
+strong {
+  color: red;
+}

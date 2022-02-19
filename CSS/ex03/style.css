@@ -1,0 +1,16 @@
+* {
+  color: green;
+}
+
+.paragrafo {
+  color: red;
+}
+
+#my-p {
+  color: orange;
+}
+
+#my-p,
+.outro-paragrafo {
+  color: blue;
+}
